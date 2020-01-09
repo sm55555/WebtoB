@@ -17,6 +17,20 @@ http.m.working -> http.m
 
 ~~~~
 
+http.m.working is only changed in the URLRewrite and URLRewriteConfig in the main domain part
+
+example Working conf
+
+~~~
+
+RewriteCond %{REQUEST_URI} !/work.html
+
+RewriteRule .* https://%{HTTP_HOST}/work.html [R=301]
+
+301 means the site has been moved.
+
+~~~
+
 #### GUI Version [compile && restart]
 
 ~~~
