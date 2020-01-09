@@ -45,9 +45,11 @@ wsboot
 http.m.yyyy.mm.dd - > http.m
 ~~~
 
+* * *
 
 repeat [compile && restart]
 
+* * *
 
 #### [check]
 
