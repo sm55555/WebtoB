@@ -4,7 +4,7 @@ enviroment : window7, webtob
 
 ## How to control webtob
 
-If you are using cmd, you should turn it on an administrator cmd
+If you are using normal cmd, you should turn it on an administrator cmd
 
 Turn on cmd and change directory webtob config folder
 
@@ -12,12 +12,12 @@ Turn on cmd and change directory webtob config folder
 
 ~~~
 
-http.m - > http.m.yyyy.mm.dd
+http.m - >  (copy) http.m.yyyy.mm.dd
 http.m.working -> http.m
 
 ~~~~
 
-#### GUI [compile && restart]
+#### GUI Version [compile && restart]
 
 ~~~
 
@@ -28,13 +28,11 @@ window taskmanger -> service -> webtob(right click restart)
 
 ~~~
 
-#### cmd [compile && restart]
+#### cmd Version [compile && restart]
 
 ~~~
 
 wscfl -i http.m (compile)
-
-wsconfig (check binary file)
 
 wsdown
 
@@ -42,10 +40,22 @@ wsboot
 
 ~~~
 
+#### restore
+
+~~~
+http.m.yyyy.mm.dd - > http.m
+~~~
+
+
+repeat [compile && restart]
+
+
 #### [check]
 
+~~~
 you have to test after deleting cookies
 
 [chrome]
 
 ctrl + shift + delete -> cookie delete click
+~~~
