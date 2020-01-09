@@ -23,7 +23,6 @@ http.m.working -> http.m
 
 wscfl -i http.m (compile)
 
-GUI version (Recommend)
 window taskmanger -> service -> webtob(right click restart)
 
 ~~~
