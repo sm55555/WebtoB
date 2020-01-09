@@ -1,6 +1,6 @@
 # WebtoB
 
-enviroment : window7, webtob
+enviroment : Window Server 2016, webtob
 
 ## How to control webtob
 
